@@ -3,71 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Site do Enzo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
   </head>
-  <body style="margin:0;padding:0;box-sizing:border-box;background-color:#1e293b;color:#f1f5f9;">
+  <body>
+    
+<header>
+  <div class="logo">
+    <img src="logo.png" alt="Logo do site">
+  </div>
+  <h1>Meu Portfólio</h1>
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Projetos</a>
+    <a href="#">Contato</a>
+  </nav>
+</header>
 
-    <header style="background-color:#0f172a;padding:20px;font-size:25px;text-align:left;">
-      <h1>Este é meu landing page</h1>
-    </header>
+    <p class="p1">
+      Óla me chamo Enzo e este é meu Portifolio <br />
+      tenho 18 anos e comecei a faculdade de engenharia <br />
+      de software. Atualmente não trabalho, mas meu sonho <br>
+      um dia é trabalhar na F1 como engenheiro.
+    </p>
 
-    <div style="margin-left:40px;">
+  <img src="image.png" alt="este sou eu" />
 
-      <img src="image.png" alt="este sou eu" style="clip-path:circle(50%);height:200px;width:200px;margin-top:40px;display:block;" />
 
-      <p style="color:#94a3b8;font-size:20px;margin-top:20px;max-width:500px;">
-        Óla me chamo Enzo e este é meu Portifolio <br />
-        tenho 18 anos e comecei a faculdade de engenharia <br />
-        de software. Atualmente não trabalho, mas meu sonho <br>
-        um dia é trabalhar na F1 como engenheiro.
-      </p>
+<section class="experiencias">
 
-      <section>
+  <h2>Projetos</h2>
 
-        <h2 style="margin-top:40px;font-size:40px;">Projetos</h2>
+  <div class="cards">
 
-        <div style="margin-top:20px;">
-
-          <div style="background-color:#0f172a;width:300px;margin:20px 0;padding:20px;border-radius:10px;">
-            <a href="https://github.com/EnzoZaffa/App_Financa" style="color:white;text-decoration:none;">
-              <h3 style="margin-bottom:10px;">App de Finanças</h3>
-            </a>
-            <p style="font-size:14px;">App de finanças (React Native/Supabase): gestão de gastos e relatórios.</p>
-          </div>
-
-          <div style="background-color:#0f172a;width:300px;margin:20px 0;padding:20px;border-radius:10px;">
-            <a href="https://github.com/EnzoZaffa/TinderPet" style="color:white;text-decoration:none;">
-              <h3 style="margin-bottom:10px;">App de TinderPet</h3>
-            </a>
-            <p style="font-size:14px;">App mobile parecido com o Tinder feito para pets. Projeto desenvolvido com React Native, Expo.</p>
-          </div>
-
-          <div style="background-color:#0f172a;width:300px;margin:20px 0;padding:20px;border-radius:10px;">
-            <a href="https://github.com/EnzoZaffa/AppSpotify" style="color:white;text-decoration:none;">
-              <h3 style="margin-bottom:10px;">App do Spotify</h3>
-            </a>
-            <p style="font-size:14px;">Aplicativo feito para escutar musica, desenvolvido com React Native, Expo.</p>
-          </div>
-
-        </div>
-
-      </section>
-
+    <div class="card">
+      <a href="https://github.com/EnzoZaffa/App_Financa"><h3>App de Finanças</h3></a>
+      <p>App de finanças (React Native/Supabase): gestão de gastos e relatórios.
+</p>
     </div>
 
-    <footer style="background-color:#0f172a;padding:20px;margin-top:50px;text-align:left;">
-      <p style="color:#94a3b8;margin-bottom:10px;margin-left:40px;">© 2026 Enzo - Todos os direitos reservados</p>
+    <div class="card">
 
-      <div style="margin-left:40px;">
-        <a href="https://github.com/EnzoZaffa" target="_blank" style="color:#ffffff;text-decoration:none;margin-right:10px;">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/enzo-zaffaroni-996299282/" target="_blank" style="color:#ffffff;text-decoration:none;">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-      </div>
-    </footer>
+      <a href="https://github.com/EnzoZaffa/TinderPet"><h3>App de TinderPet</h3></a>
+      <p>App mobile parecido com o Tinder feito para pets. Projeto desenvolvido com React Native, Expo.
 
-  </body>
+ </p>
+    </div>
+
+    <div class="card">
+     <h3><a href="https://github.com/EnzoZaffa/AppSpotify">App do Spotify</a></h3>
+      <p>Aplicativo feito para escutar musica, desenvolvido com React Native, Expo.</p>
+    </div>
+
+  </div>
+
+</section>
+  
+<footer>
+  <p>© 2026 Enzo - Todos os direitos reservados</p>
+
+  <div class="links">
+    <a href="https://github.com/EnzoZaffa" target="_blank">
+    <i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/enzo-zaffaroni-996299282/" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </div>
+</footer>
+ </body>
+
 </html>
